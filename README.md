@@ -2,7 +2,7 @@
 -------------------------------
 Please fork and update the code with suggested improvements.
 
-This file, functions-custom.php, should be placed in your WordPress theme folder where functions.php is located.  Open functions.php and add this code to the top of the file `<?php include('functions-custom.php'); ?>`
+This file functions-custom.php should be placed in your WordPress theme folder where functions.php is located.  Open functions.php and add this code to the top of the file `<?php include('functions-custom.php'); ?>`
 
 You'll need to edit the code at this stage, because it isn't fully integrated into WordPress dashboard for customizing the settings.  Look for the "manual: " prefix inside the code to indicate where you'll need to edit something.  Currently, those locations are:
 
