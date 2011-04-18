@@ -69,7 +69,13 @@ class WP_IPB {
         // maybe use $wp->post_name slug instead of guid
         $content = $wp->post_content."\n\n".'[url="'.$wp->guid.'"]Read the full story here[/url]';
 
-        $postClass->setPostContentPreFormatted( $content );
+		$postClass->setPostContent( $content );
+		$postClass->setSettings( array( 
+			'enableSignature' => 0,
+		    'enableEmoticons' => 0,
+		    'post_htmlstatus' => 2,
+		    'enableTracker'   => 0
+		    ) );
 
         $postClass->setTopicState('open');
         $postClass->setPublished( TRUE );
