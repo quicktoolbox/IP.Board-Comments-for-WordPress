@@ -30,3 +30,5 @@ You'll need to edit the code at this stage, because it isn't fully integrated in
 	$topicUrl = sprintf("http://yourforum.com/topic/%s-%s",$topicData['tid'],$topicData['title_seo']);
 	update_post_meta($wp->ID,'forum_topic_url',htmlentities($topicUrl));
 	
+Ideas from:
+http://community.invisionpower.com/topic/336465-creating-a-topic-from-wordpress/
